@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925847248788",
+    "project_id": "valk-app",
+    "storage_bucket": "valk-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925847248788:android:d4f61d9fe668b02dad7981",
+        "android_client_info": {
+          "package_name": "com.example.flutter_valk_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925847248788-4bp07h6olj31k7kgj6b12473sjvit0ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcnErbuGVlHTiRya8qQnQWKNxz11PEcrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925847248788-4bp07h6olj31k7kgj6b12473sjvit0ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
