@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_valk_app/screen/login_screen.dart';
 
 import 'package:flutter_valk_app/screen/splash_screen.dart';
 import 'package:flutter_valk_app/services/navigation_service.dart';
@@ -21,7 +22,11 @@ class MainApp extends StatelessWidget {
         bottomNavigationBarTheme:
             BottomNavigationBarThemeData(backgroundColor: Color(0xFF0A0C1F)),
       ),
-      // navigatorKey: NavigationService.navigatorKey,
+      navigatorKey: NavigationService.navigatorKey,
+      initialRoute: '/login',
+      routes: {
+        '/login':(BuildContext _context) => LoginScreen(),
+      },
     );
   }
 }
