@@ -19,7 +19,7 @@ class RoundedButton extends StatelessWidget {
 
       ),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () => onPressed(),
         child: Text(name, style: GoogleFonts.poppins(fontSize: 22, color: Colors.white),),
       )
     );
