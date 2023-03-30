@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_valk_app/provider/authentication_provider.dart';
-import 'package:flutter_valk_app/widgets/custom-input_field.dart';
+import 'package:flutter_valk_app/widgets/custom_input_field.dart';
 import 'package:flutter_valk_app/widgets/rounded_button.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
         body: Container(
       padding: EdgeInsets.symmetric(
-          horizontal: _deviceWidth * 0.1, vertical: _deviceHeight * 0.05),
+          horizontal: _deviceWidth * 0.06, vertical: _deviceHeight * 0.05),
       height: _deviceHeight * 0.98,
       width: _deviceWidth,
       child: Column(
@@ -127,7 +127,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   Widget _registerAccountLink() {
     return GestureDetector(
-        onTap: () {},
+        onTap: () => _navigation.navigateToRoute("/register"),
         child: Container(
             child: Text(
           "Don't have an account? Register!",

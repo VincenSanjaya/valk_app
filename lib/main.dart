@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_valk_app/provider/authentication_provider.dart';
 import 'package:flutter_valk_app/screen/home_screen.dart';
 import 'package:flutter_valk_app/screen/login_screen.dart';
+import 'package:flutter_valk_app/screen/register_screen.dart';
 
 import 'package:flutter_valk_app/screen/splash_screen.dart';
 import 'package:flutter_valk_app/services/navigation_service.dart';
@@ -38,6 +39,7 @@ class MainApp extends StatelessWidget {
         initialRoute: '/login',
         routes: {
           '/login': (BuildContext _context) => LoginScreen(),
+          '/register': (BuildContext _context) => RegisterScreen(),
           '/home': (BuildContext _context) => HomeScreen(),
         },
       ),
